@@ -1,0 +1,46 @@
+{
+  "name": "jaik.js",
+  "version": "2.0.0",
+  "description": "Batteries-included micro-framework for AI-generated code. Router, event bus, fetch, localStorage, CSS-in-JS, CORS, static server, middleware. 1-char API, zero verbosity.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "browser": "./index.js",
+      "default": "./index.js"
+    },
+    "./node": {
+      "node": "./node.js",
+      "default": "./node.js"
+    }
+  },
+  "main": "./index.js",
+  "files": [
+    "index.js",
+    "node.js",
+    "README.md"
+  ],
+  "keywords": [
+    "ai",
+    "llm",
+    "framework",
+    "hyperscript",
+    "minimal",
+    "token-efficient",
+    "dom",
+    "node",
+    "micro-framework",
+    "router",
+    "event-bus",
+    "css-in-js",
+    "batteries-included",
+    "cors",
+    "static-server",
+    "middleware"
+  ],
+  "author": "Donato Molino",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
